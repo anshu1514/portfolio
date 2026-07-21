@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about you </title>
+</head>
+<body>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+        <br><br>
+        <label for="highest qualification">Highest Qualification:</label>
+        <input type="radio" id="highest qualification" name="highest_qualification" value="10th" required>
+        <label for="highest qualification">10th</label>
+        <input type="radio" id="highest qualification" name="highest_qualification" value="12th" required>
+        <label for="highest qualification">12th</label>
+        <input type="radio" id="highest qualification" name="highest_qualification" value="ug" required>
+        <label for="highest qualification">ug</label>
+        <input type="radio" id="highest qualification" name="highest_qualification" value="pg" required>
+        <label for="highest qualification">pg</label> <br><br>
+        <label for="Continent ">Continent you love</label>
+        <select id="continent" name="continent" required>
+            <option value="none">Select a continent</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+            <option value="Europe">Europe</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+        <br><br>
+        <label for="your thoughts">Your Thoughts:</label>
+        <textarea name="your thoughts" id="your thoughts" rows="4" cols="50" required></textarea required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
